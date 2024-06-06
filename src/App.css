@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+* {
+    font-family: "Indie Flower", cursive;
+    font-weight: 500;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+    font-size: 1.07em;
+}
+
+body {
+    background-image: linear-gradient(white, rgb(233, 233, 233));
+    height: 100vh;
+
+}
+
+h2{
+    margin-left: 20px;
+}
+
+button#add {
+    display: block;
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 1em;
+    border: none;
+    border-radius: 50%;
+    box-shadow: -5px 3px 6px rgba(20, 3, 121, 0.26);
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    font-size: 2em;
+}
+
+input#name {
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-radius: 25px;
+    width: 350px;
+    height: 1.5emem;
+    padding: 2px 10px;
+    margin: 1em 0;
+    box-shadow: -3px 2px 5px rgba(20, 3, 121, 0.26);
+}
+
+button#add:active {
+    box-shadow: inset -5px 3px 8px rgba(20, 3, 121, 0.26);
+}
+
+input#name:focus {
+    border: none;
+    outline: none;
+    box-shadow: inset -3px 2px 5px rgba(20, 3, 121, 0.26);
+}
+
+ul {
+    border: 1px solid rgba(0, 0, 0, 0.164);
+    width: 380px;
+    border-radius: 15px;
+    margin: auto;
+}
+
+li {
+    background-color: white;
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 30px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 0 20px;
+    box-shadow: -3px 2px 5px rgba(20, 3, 121, 0.26);
+}
+
+li > button {
+    background-color: #ffffff;
+    position: absolute;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 0;
+    box-shadow: -5px 3px 6px rgba(20, 3, 121, 0.26);
+    cursor: pointer;
+}
+
+li > p {
+    text-align: justify;
+} 
+input.check {
+    margin-right: 1em;
+}
